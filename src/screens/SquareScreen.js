@@ -1,8 +1,13 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
+import ColorCounter from '../Components/ColorCounter.js';
 
 const SquareScreen = () => {
-    return <Text>SquareScreen</Text>;
+    return <View>
+        <ColorCounter color="Red"/>
+        <ColorCounter color="Green"/>
+        <ColorCounter color="Blue"/>
+    </View>;
 };
 
 const styles = StyleSheet.create({});
