@@ -16,6 +16,7 @@ const SquareScreen = () => {
                 onDecrease={() => setRed(red - Color_Increment)} 
                 color="Red"
             />
+            
             <ColorCounter 
                 onIncrease={() => setGreen(green + Color_Increment)} 
                 onDecrease={() => setGreen(green - Color_Increment)} 
